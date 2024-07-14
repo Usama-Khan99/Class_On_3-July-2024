@@ -41,8 +41,7 @@ myType = testType;
 // index signature use karygy
 
 type dynamicForm = {
-    [key:string]: string;
-
+    [key:string]: string | number;
 }
 
 let feedBackForm : dynamicForm = {
@@ -57,3 +56,29 @@ let studentInfo: dynamicForm ={
     nic:'1234918356826',
     education:'Bsc',
 };
+
+
+// Modules
+// (import and export)
+// alag alag name ki files banaty h phr usy 
+// need k hisaab sy main file m import export karty h 
+
+// is topic ka alag folder bana dya h modules k name sy 
+
+function printMessage(message: string | number){
+    if(typeof message === 'string'){
+        message.toUpperCase();
+    }
+    if (typeof message === "number"){
+        message.toFixed(2);
+    }
+}
+
+
+
+// Difference between javascript object and JSON
+
+
+// what is the actual difference between primitive and non primitive data types
+
+
